@@ -1,7 +1,7 @@
 a = int(input("Enter an integer: "))
 b = int(input("Enter another integer: "))
 
-import math_lib
+exec(open("math_lib.py").read());
 
 div_result = div(a, b)
 add_result = add(a, b)
